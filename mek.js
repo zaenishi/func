@@ -8,7 +8,7 @@ async function mek(mes, sock, db, func, util, process, Color, axios) {
     }
 
   } catch (error) {
-    console.error("Terjadi kesalahan:")
+    console.error("Terjadi kesalahan")
     process.exit(1);
   }
 }
